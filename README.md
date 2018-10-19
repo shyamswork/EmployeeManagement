@@ -6,12 +6,14 @@ Employee management using spring- boot java .
 This is a sample REST API application built based on spring boot 2 using java programmming language . The application provides some of the End points like below :-
 
 1)Create Employee record(s)
+
 2) Update existing Employee record(s)
+
 3) Delete an existing Employee record.
 
 The web application has the embedded Tomcat server which can boot up in windows by executing following command on the command line
 
-Excecution command: java -jar company-employee-management-0.0.1-SNAPSHOT.jar.
+                      Excecution command: java -jar company-employee-management-0.0.1-SNAPSHOT.jar.
 
 Once the server started the below URLs can be tried out .
 
