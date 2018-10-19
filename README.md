@@ -13,7 +13,7 @@ This is a sample REST API application built based on spring boot 2 using java pr
 
 The web application has the embedded Tomcat server which can boot up in windows by executing following command on the command line
 
-                      Excecution command: java -jar company-employee-management-0.0.1-SNAPSHOT.jar.
+      Excecute this command to boot up the web applicaton server:-  java -jar company-employee-management-0.0.1-SNAPSHOT.jar.
 
 Once the server started the below URLs can be tried out .
 
