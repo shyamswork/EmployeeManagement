@@ -20,7 +20,7 @@ Once the server started the below URLs can be tried out .
  
                       URL sample : POST : http://localhost:8080/create-employee
                       
-body [ { "id" : "500", "fullName" : "updated", "age" : "25", "salary" : "30000" }, { "id" : "400", "fullName" : "updated", "age" : "30", "salary" : "100000" } ]
+Example body [ { "id" : "500", "fullName" : "updated", "age" : "25", "salary" : "30000" }, { "id" : "400", "fullName" : "updated", "age" : "30", "salary" : "100000" } ]
 
 Note :- 'id' uniqueness has not handled and it can be handled by providing a UUID or timestamp+random number or sequence etc .
 
@@ -30,7 +30,7 @@ If the File not exist or file is empty File will be created and new records will
 
                       URL sample : POST : http://localhost:8080/update-employee
                       
-body [ { "id" : "500", "fullName" : "updated", "age" : "25", "salary" : "30000" }, { "id" : "400", "fullName" : "updated", "age" : "30", "salary" : "100000" } ]
+Example body [ { "id" : "500", "fullName" : "updated", "age" : "25", "salary" : "30000" }, { "id" : "400", "fullName" : "updated", "age" : "30", "salary" : "100000" } ]
 
 Update existing Employee record(s) Return back the modified content of the .json file for debug or test
 
